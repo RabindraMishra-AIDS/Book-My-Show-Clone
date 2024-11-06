@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book my Show</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="head">
+            <!---Logo-->
+            <div class="logo">
+                <div class="left">
+                    <h1>Book My Show</h1>
+                </div>
+                <div class="right">
+                    <button>Movies</button>
+                    <button>Events</button>
+                    <button>Sports</button>
+                    <button>More</button>
+                </div>
+            </div>
+            <!--Search-->
+            <div class="search">
+                    <input type="text" placeholder="Search Movies,Events and more...." class="searching"><button>Search</button>
+
+            </div>
+        </div>
+    </header>
+    <!--Main Section-->
+    <div class="ad">
+        <div class="controls">
+            <button onclick="prevSlide()" class="rightad">&#8249;</button> <!-- Left arrow symbol -->
+        </div>
+        <img src="./images1/h.avif" alt="" class="slide active">
+        <img src="./images1/h2.avif" alt="" class="slide">
+        <img src="./images1/h3.avif" alt="" class="slide">
+        <img src="./images1/h4.avif" alt="" class="slide">
+        <div class="controls">
+            <button onclick="nextSlide()" class="leftad">&#8250;</button> <!-- Right arrow symbol -->
+        </div>
+    </div>
+    <!---Hero section-->
+    <div class="hero">
+        <h2>Experience the best Movie Experience.</h2>
+        <button>Book Now</button>
+    </div>
+    <!-------------------Mover Section----------------------------------->
+    <div class="mover">
+        <h2>Popular Movies</h2>
+    </div>
+    <div class="movie">
+        <div class="card">
+            <img src="./images1/m1.avif" alt="singham" class="images">
+            <h3>Singham</h3>
+            <p>Action/Drama</p>
+        </div>
+        <div class="card">
+            <img src="./images1/m2.avif" alt="bhool bhulaiya" class="images">
+            <h3>Bhool Bhulaiya</h3>
+            <p>Comedy/Horror</p>
+        </div>
+        <div class="card">
+            <img src="./images1/m3.avif" alt="venom" class="images">
+            <h3>Venom</h3>
+            <p>Action/Sci-Fi</p>
+        </div>
+        <div class="card">
+            <img src="./images1/m4.avif" alt="amaran" class="images">
+            <h3>Amaran</h3>
+            <p>Drama/Thriller</p>
+        </div>
+        <div class="card">
+            <img src="./images1/m5.avif" alt="The wild robot" class="images">
+            <h3>The Wild Robot</h3>
+            <p>Adventure/Family</p>
+        </div>
+        <div class="card">
+            <img src="./images1/m7.avif" alt="" class="images">
+            <h3>Lucky Baskhar</h3>
+            <p>Crime/Thriller</p>
+        </div>
+        <div class="card">
+            <img src="./images1/m6.avif" alt="" class="images">
+            <h3>Phullwanti</h3>
+            <p>Drama/Romantic</p>
+        </div>
+        <div class="card">
+            <img src="./images1/m8.avif" alt="" class="images">
+            <h3>Pani</h3>
+            <p>Action/Drama</p>
+        </div>
+        <div class="card">
+            <img src="./images1/m9.avif" alt="" class="images">
+            <h3>Vettaiyan-The Hunter</h3>
+            <p>Action/Drama</p>
+        </div>
+    </div>
+    <div class="bottom">
+        <img src="./images1/bottom.avif" alt="bottom image">
+    </div>
+    <!-----------------------Javascript----------------------------------->
+    <script src="./test.js"></script>
+</body>
+</html>
